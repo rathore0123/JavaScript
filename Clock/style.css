@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #245673;
+}
+
+h1{
+    color: #aed8f1;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 2px 2px 12px #fff;
+    background-color: #163b4d;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+}
