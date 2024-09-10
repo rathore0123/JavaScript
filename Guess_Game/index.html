@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Guess The Number</h1>
+        <p>
+            <label for="user">User Guess:</label>
+            <input type="text" placeholder="Enter a Number 1-100" id="user">
+        </p>
+        <input type="submit" value="Submit" id="submit">
+        <p><span id="RemainingGuesses">Remaining Guesses: 10</span></p>
+        <p>Previous Gusses: <span id="prevGuess"></span></p>
+        <p><span id="message"></span></p>
+        <p><span id="newGame"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
